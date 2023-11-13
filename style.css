@@ -124,9 +124,15 @@ body {
 /* slider */
 .slider-box {
     border: #292D5D solid 3px !important;
-    padding: 12px;
+    padding: 5px;
     color: #292D5D;
-}
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .slider-box:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
 
 /* who we are section */
 .who-we-are-box-blue {
@@ -459,5 +465,10 @@ body {
 
     .top-txt {
         font-size: 11px;
+    }
+
+    /* slider */
+    .slider-box{
+        width: 300px;
     }
 }
