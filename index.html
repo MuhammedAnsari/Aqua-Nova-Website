@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Nova</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg px-5" data-bs-theme="dark" style="background-color: #292D5D;">
+        <div class="container-fluid d-flex justify-">
+            <a class="navbar-brand" href="#">
+                <img src="Images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-evenly align-items-center flex-grow-1 pe-3">
+                        <div class="d-flex justify-content-between w-35 flex-sm-column flex-lg-row flex-md-column  ">
+                            <li class="nav-item">
+                                <a class="nav-link text px-4 text-light" aria-current="page"
+                                    href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text px-4 text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text px-4 text-light" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text px-4 text-light" href="#">Contact Us</a>
+                            </li>
+                        </div>
+
+                        <div
+                            class="d-flex justify-content-between flex-md-column flex-lg-row position-md-absolute position-lg-absolute bottom-0">
+                            <div class="working-hrs-section border border-top-0 border-bottom-0 px-3">
+                                <div class="d-flex align-items-center">
+                                    <img src="Images/nav_service.png" style="height: max-content;" alt="">
+                                    <div class="ms-2" style="line-height: 12px;">
+                                        <p class="nav-txt">Working hours</p>
+                                        <p class="secondary-color fw-semibold fs-5 nav-txt-yellow">7.00 am - 18.00 pm</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="phone-section px-3">
+                                <div class="d-flex align-items-center">
+                                    <img src="Images/nav_phone.png" style="height: max-content;" alt="">
+                                    <div class="ms-2" style="line-height: 12px;">
+                                        <p class="nav-txt">Call Us Today</p>
+                                        <p class="secondary-color fw-bold fs-5 nav-txt-yellow">000-000-000</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="button-section">
+                                <button class="fw-bold" style="background-color: #FFB124; color: black;"
+                                    type="button">Get a Free Estimate <img src="Images/button_arrow.png" alt=""></button>
+                            </div>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- top banner -->
+    <section class="top-banner">
+        <div class="container text-left">
+            <div class="row align-items-start">
+                <div class="col-lg-9">
+                    <h3 class="primary-color top-head-blue" style="font-weight: 500;">Flowing Happiness:</h3>
+                    <img class="top_vector_1" src="Images/top_banner_vector_1.png" alt="">
+                    <h1 class="fw-bold top-head">Your Satisfaction,</h1>
+                    <h1 class="fw-bold top-head">Our plumbing promise!</h1>
+                    <p class="w-75 top-txt"><span class="fw-bold">AquaNova Plumbing Solutions </span>is more than a
+                        plumbing service;
+                        we're your partners in creating a seamless plumbing experience.</p>
+                </div>
+            </div>
+
+            <div class="top-btn">
+                <button class="btn btn-yellow fw-semibold" type="button">Get a Free Online Quote <img src="Images/button_arrow.png" alt=""></button>
+                <button class="btn btn-blue fw-semibold ml-3" type="button">Explore Our Services <img src="Images/button_arrow_light.png" alt=""></button>
+                <img class="top_vector_2" src="Images/top_banner_vector_2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- slider -->
+    <section class="py-5">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider-box border rounded-pill text-center fw-bold">Emergency Plumbing</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-box border rounded-pill text-center fw-bold">General Plumbing Services</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-box border rounded-pill text-center fw-bold">Boiler Services</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-box border rounded-pill text-center fw-bold">Bathroom Remodeling</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-box border rounded-pill text-center fw-bold">Dry Cleaning</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-box border rounded-pill text-center fw-bold">Emergency Plumbing</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-box border rounded-pill text-center fw-bold">General Plumbing Services</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-box border rounded-pill text-center fw-bold">Bathroom Remodeling</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-box border rounded-pill text-center fw-bold">Dry Cleaning</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- who we are section -->
+    <section class="who-we-are-section py-5">
+        <div class="container text-left">
+            <div class="row align-items-start">
+                <div class="col-lg-6 col-md-12">
+                    <div>
+                        <p class="fs-4 rounded-pill w-25 text-center primary-color fw-bold who-we-are-pill"
+                            style="border: #292D5D solid 2px;">Who we are</p>
+                        <h1>Welcome to AquaNova</h1>
+                        <h1>Plumbing Solutions -</h1>
+                        <h1 class="primary-color fw-bold">Your Reliable Plumbing Partner!</h1>
+                    </div>
+
+                    <div>
+                        <p><span>AquaNova Plumbing Solutions </span>is more than a plumbing
+                            service; we're your partners in creating a seamless plumbing
+                            experience.</p>
+                        <p>Our team of skilled plumbers is dedicated to delivering topnotch services that ensure your
+                            home or business operates
+                            smoothly. With a commitment to quality, integrity, and customer
+                            satisfaction, we've been serving communities since 2010.</p>
+
+                        <button class="btn btn-yellow">Learn More About Us</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 who-we-are-bottom mt-3">
+                    <div class="row">
+                        <div class="col-sm-5 h-75">
+                            <div class="who-we-are-box-blue">
+                                <div class="mt-5 py-5 px-3">
+                                    <div class="yellow-bg-round">
+                                        <img src="Images/who_we_are_icon.png" alt="">
+                                    </div>
+                                    <div class="lh-1">
+                                        <p class="primary-color fw-bold"><span style="font-size: 45px;">13+</span>Years
+                                        </p>
+                                        <p class="primary-color fw-bold">of Service Experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-7 mt-3">
+                            <img src="Images/who_we_are_2.jpg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-7">
+                            <img src="Images/who_we_are_1.jpg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col-sm-5 mt-3">
+                            <div class="who-we-are-box-yellow">
+                                <div class="mt-5 py-5 px-3">
+                                    <div class="blue-bg-round">
+                                        <img src="Images/who_we_are_icon_1.png" alt="">
+                                    </div>
+                                    <div class="lh-1">
+                                        <p class="primary-color fw-bold"><span style="font-size: 45px;">1000+</span></p>
+                                        <p class="primary-color fw-bold">Satisfied Clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services we offer -->
+    <section class="services-we-offer-section py-5 ">
+        <div class="container">
+            <div
+                class="services-we-offer-txt container text-center d-flex justify-content-center align-items-center flex-column">
+                <p class="fs-4 rounded-pill w-25 primary-color fw-bold who-we-are-pill"
+                    style="border: #292D5D solid 2px;">Services We Offer</p>
+                <h1 class="fw-bold primary-color">Trust AquaNova Plumbing Solutions</h1>
+                <h2>for all your plumbing needs.</h2>
+                <p class="fw-semibold">We're committed to delivering quality, reliability, and satisfaction with every
+                    service we offer.</p>
+                <p class="fw-semibold"><span class="fw-bold">Contact us today </span>to experience plumbing solutions
+                    that exceed your expectations.</p>
+            </div>
+
+            <div class="d-flex flex-wrap justify-content-evenly">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="Images/plumbing.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Emergency Plumbing</h5>
+                        <p class="card-text">When plumbing disasters
+                            strike, our swift response is
+                            your solution. We're available...</p>
+                        <a href="#" class="primary-color fs-5 fw-bold">Explore...</a>
+                    </div>
+                </div>
+
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="Images/gen-plumbing.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">General Plumbing</h5>
+                        <p class="card-text">From installations to repairs
+                            and maintenance, we've got
+                            your plumbing covered. Our...</p>
+                        <a href="#" class="primary-color fs-5 fw-bold">Explore...</a>
+                    </div>
+                </div>
+
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="Images/boiler.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Boiler Services</h5>
+                        <p class="card-text">Stay warm and cozy with our
+                            professional boiler services.
+                            Whether it's installation, servi...</p>
+                        <a href="#" class="primary-color fs-5 fw-bold">Explore...</a>
+                    </div>
+                </div>
+
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="Images/plumbing.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Bathroom Remodeling</h5>
+                        <p class="card-text">Transform your bathroom into
+                            a modern oasis with our expert
+                            design and renovation service...</p>
+                        <a href="#" class="primary-color fs-5 fw-bold">Explore...</a>
+                    </div>
+                </div>
+
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="Images/drain.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Drain Cleaning</h5>
+                        <p class="card-text">Say goodbye to clogged drains
+                            and backed-up pipes. Our drain
+                            cleaning services guarantee...</p>
+                        <a href="#" class="primary-color fs-5 fw-bold">Explore...</a>
+                    </div>
+                </div>
+
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="Images/water-heater.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Water Heater Solutions</h5>
+                        <p class="card-text">Enjoy hot water on demand
+                            with our water heater
+                            installation and repair service...</p>
+                        <a href="#" class="primary-color fs-5 fw-bold">Explore...</a>
+                    </div>
+                </div>
+
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="Images/gas.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Gas Appliance Services</h5>
+                        <p class="card-text">Safety is our priority when it
+                            comes to gas appliance
+                            installations and repairs. Our...</p>
+                        <a href="#" class="primary-color fs-5 fw-bold">Explore...</a>
+                    </div>
+                </div>
+
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="Images/leak.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Leak Detection</h5>
+                        <p class="card-text">Don't let leaks go unnoticed
+                            our cutting-edge technology
+                            allows us to identify and fix...</p>
+                        <a href="#" class="primary-color fs-5 fw-bold">Explore...</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-container d-flex justify-content-center mt-5">
+                <button class="btn btn-yellow fw-bold">Schedule An Appointment</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- why choose section -->
+    <section class="primary-background why-choose-section">
+        <div class="container-fluid text-left">
+            <div class="row align-items-start">
+                <div class="col">
+                    <!-- why choose txt -->
+                    <div class="col why-choose-txt">
+                        <p class="yellow-pill fw-bold">Why Choose</p>
+                        <h1 class="fw-light">Why Choose <span class="fw-bold">AquaNova</span></h1>
+                        <h1 class="fw-semibold">Plumbing Solutions?</h1>
+                        <p class="text-white">At AquaNova Plumbing Solutions, we don't just fix plumbing
+                            problems; we elevate your comfort and convenience. From leaks
+                            to installations, our team is equipped to handle it all. Your
+                            satisfaction is our ultimate goal, and we go the extra mile to
+                            achieve it.</p>
+                    </div>
+                    <!-- why choose img -->
+                    <div class="col why-choose-img">
+                        <img src="Images/why-choose-img.png" class="img-fluid" alt="...">
+                    </div>
+                </div>
+
+                <!-- why choose contents -->
+                <div class="col why-choose-contents px-5">
+                    <div class="d-flex flex-wrap px-5">
+
+                        <div class="card why-choose-content-card border-0"
+                            style="width: 18rem; background-color: transparent;" data-bs-theme="dark">
+                            <div class="yellow-outline-round">
+                                <div class="yellow-bg-round">
+                                    <img src="Images/service-icon-exp.png" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="card-body why-choose-card-body">
+                                <h5 class="card-title fs-3">Expertise</h5>
+                                <p class="card-text fs-5 fw-light">Our plumbers are certified
+                                    professionals with years of
+                                    experience in the field.</p>
+                            </div>
+                        </div>
+
+                        <div class="card why-choose-content-card border-0"
+                            style="width: 18rem; background-color: transparent;" data-bs-theme="dark">
+                            <div class="yellow-outline-round">
+                                <div class="yellow-bg-round">
+                                    <img src="Images/service-icon-cut.png" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Cutting-Edge Solutions</h5>
+                                <p class="card-text fs-5 fw-light">We stay updated with the latest
+                                    techniques and technology for
+                                    efficient plumbing solutions.</p>
+                            </div>
+                        </div>
+
+                        <div class="card why-choose-content-card border-0"
+                            style="width: 18rem; background-color: transparent;" data-bs-theme="dark">
+                            <div class="yellow-outline-round">
+                                <div class="yellow-bg-round">
+                                    <img src="Images/service-icon-prompt.png" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Prompt Response</h5>
+                                <p class="card-text fs-5 fw-light">Plumbing issues can't wait.
+                                    That's why we offer fast,
+                                    reliable emergency services.</p>
+                            </div>
+                        </div>
+
+                        <div class="card why-choose-content-card border-0"
+                            style="width: 18rem; background-color: transparent;" data-bs-theme="dark">
+                            <div class="yellow-outline-round">
+                                <div class="yellow-bg-round">
+                                    <img src="Images/service-icon-customer.png" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Customer-Centric Approach</h5>
+                                <p class="card-text fs-5 fw-light">Your needs come first. We work
+                                    closely with you to understand and
+                                    address your plumbing
+                                    requirements.</p>
+                            </div>
+                        </div>
+
+                        <div class="card why-choose-content-card border-0"
+                            style="width: 18rem; background-color: transparent;" data-bs-theme="dark">
+                            <div class="yellow-outline-round">
+                                <div class="yellow-bg-round">
+                                    <img src="Images/service-icon-transparent.png" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Transparent Pricing</h5>
+                                <p class="card-text fs-5 fw-light">We believe in honesty and
+                                    clarity. Our upfront pricing
+                                    ensures no surprises.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 10,
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+                1074: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+                1202: {
+                    slidesPerView: 4,
+                },
+                1354: {
+                    slidesPerView: 5,
+                }
+            },
+        });
+    </script>
+
+</body>
+
+</html>
