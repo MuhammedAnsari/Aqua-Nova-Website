@@ -356,6 +356,19 @@ body {
     }
 }
 
+@media (max-width: 639px) {
+    /* slider */
+    .service_slider {
+        display: flex !important;
+        justify-content: center !important;
+      }
+      
+      .slider-box {
+        margin: 0 auto;
+        width: 400px;
+      }
+}
+
 @media (max-width: 575px) {
 
     /* top banner */
