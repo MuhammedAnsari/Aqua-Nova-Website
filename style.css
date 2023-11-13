@@ -246,6 +246,11 @@ body {
     .nav-txt {
         font-size: 14px !important;
     }
+
+    /* top banner */
+    .top_vector_2{
+        left: 450px;
+    }
 }
 
 @media (max-width: 1255px) {
@@ -284,6 +289,10 @@ body {
 
     .top_vector_1{
         width: 45%;
+    }
+
+    .top_vector_2{
+        display: none;
     }
 }
 
