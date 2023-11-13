@@ -1,5 +1,5 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 * {
     padding: 0;
@@ -132,6 +132,22 @@ body {
   .slider-box:hover {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+  }
+
+  /* services */
+  .services_btn{
+    width: 320px;
+    height: 60px;
+    padding: 15px, 20px, 15px, 20px;
+    border-radius: 4px;
+  }
+
+  .services-we-offer-p{
+    line-height: 10px;
+  }
+
+  .services-we-offer-pill{
+    padding: 0 10px !important;
   }
 
 /* who we are section */
@@ -336,8 +352,14 @@ body {
 }
 
 @media (max-width: 991px){
+    /* top banner */
     .top-banner{
         padding: 100px 0 !important;
+    }
+
+    /* services section */
+    .services-we-offer-p{
+        line-height: 25px;
     }
 }
 
